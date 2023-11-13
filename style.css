@@ -10,30 +10,40 @@
 }
 .left {
   width: 20%;
-  background-color: orangered;
+  background-color: #336b87;
   height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 16px;
-  gap: 10px;
+  padding: 30px;
+  gap: 20px;
 }
 .right {
-  background-color: blue;
+  background-color: #23818d;
   width: 80%;
   height: auto;
+}
+.authr{
+  width: 100%;
+  height: auto;
+  background-color: #AA87B8;
+  padding: 14px;
+}
+.authr h3{
+  text-align: center;
+  /* margin: auto; */
 }
 .left .img {
   width: 200px;
   height: 200px;
-  background-color: rgb(147, 147, 147);
+  background-color: #004445;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 .left div {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 14px;
-  color: #dfdfe1;
+  color: #F5BE41;
 }
 .icon {
   display: flex;
@@ -41,7 +51,15 @@
 }
 .icon .icon1 a i {
   font-size: 30px;
-  color: rgb(0, 0, 0);
+  color: #4897D8;
+}
+.icon .icon2 a i {
+  font-size: 30px;
+  color: #E4405F;
+}
+.icon .icon3 a i {
+  font-size: 30px;
+  color: #4078;
 }
 .icon .icon1 a i:hover {
   color: rgb(44, 44, 44);
@@ -49,12 +67,13 @@
 .top {
   width: 100%;
   height: auto;
+
 }
 .top h1 {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
   padding: 16px;
-  color: #d2bc5c;
+  color: #ec96a4;
 }
 .bot {
   width: 30%;
